@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\secondlevel\submodule-b-other\SubmoduleBClassLibrary\SubmoduleBClassLibrary.csproj" />
     <ProjectReference Include="..\..\submodule-a\ModuleALibrary\ModuleALibrary.csproj" />
     <ProjectReference Include="..\HostClassLibrary\HostClassLibrary.csproj" />
   </ItemGroup>

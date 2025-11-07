@@ -1,4 +1,5 @@
 ﻿using ModuleALibrary;
+using SubmoduleBClassLibrary;
 
 namespace ConsoleForHost1;
 
@@ -11,5 +12,7 @@ internal class Program
         Console.WriteLine(host1Class1.GetData());
         var a = new ModuleAClass1();
         Console.WriteLine(a.GetData());
+        var b = new TestClassB1();
+        Console.WriteLine(b.GetMyString());
     }
 }
