@@ -1,3 +1,6 @@
 [submodule "submodule-a"]
 	path = submodule-a
 	url = https://github.com/farmisapa/sub-submodule-a.git
+[submodule "secondlevel/submodule-b-other"]
+	path = secondlevel/submodule-b-other
+	url = https://github.com/farmisapa/sub-submodule-b.git
